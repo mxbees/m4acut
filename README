@@ -67,9 +67,9 @@ OPTIONS
 
 # Build on Linux
 
-aclocal
-autoreconf --install
-automake --add-missing
-./configure
-make
-sudo make install
+1. aclocal
+2. autoreconf --install
+3. automake --add-missing
+4. ./configure
+5. make
+6. sudo make install
