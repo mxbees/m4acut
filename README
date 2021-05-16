@@ -64,3 +64,12 @@ OPTIONS
     By default, UTF-8 is assumed.
 
 -c, -C, and -s/-e are Mutually exclusive and cannot be set at the same time.
+
+# Build on Linux
+
+aclocal
+autoreconf --install
+automake --add-missing
+./configure
+make
+sudo make install
